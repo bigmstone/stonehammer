@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "StoneHammer",
+  "description": "Collection of random things for Matt Stone.",
+  "version": "2025.01.02",
+  "permissions": [
+    "tabs",
+    "scripting",
+    "declarativeNetRequest"
+  ],
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "block_sites",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "host_permissions": ["<all_urls>"],
+  "key": "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCS8noV08QhXjx3c2NO/NuAlcfs0tPksev2ipcjto2UVALUa4O+UY1nY/D+wKAMK8YPxILqnzYt84rB9nUdgnc7FXpS3NLkgH7mn0xXwVxqm8mi+Qj+c0GweUfoOOSWKd+elHjC3t3T1u6v1SfIcntq7KYO/cTDQznkWs+fAeT0w4EpD6k4Y9B5efsh1GXbNTN+RU6b+TWgj7JHH6NFrF1/g7Zg9BEJjEaaRCSMrLZCJ2D3TtnbpVXXN9Ix1MGs5bQuEJNV6wcHljbSMzIeoF8VRKp8XHt4VfJCOu2TaVtlcXANXEHONqtBIoJgULHJNw6TSwoDFqfuy+lwXILY5Za3AgMBAAECggEACTRI818NVO27Kdw/Zy4tbZN0L2BRR2zhk9LAfssreRP+DWIioWQoUEaRTNOx8rE3ObucW6fXU++CTH3sfgmzAC9rNw9/4jIuQLHPrVt+N2tEqQGiT5XWkoA2QdR2dPVwfVVdbw9Yo7E9yCO41zRciKkECcJZdcWbNbN+d749ohsYhATm9UCfUp0qc71BH3tdvWjQLyYpvRJPIpW5GZk1E9u0fEAPTRLy5FmC9iFxpigHSbLNR3HY2PzftX/GBo9fAgVSdCj6tlO4L6VehZmQUWxsxxouHQ7x55F6BzzBbGpYF/akp9GOYaW+HhWLMTgNyxn/wkqzEjaIz+wE6mfMUQKBgQDLPRYFpVsP0l/7eXOI6Dm9E8/8K1DQmrrOwoV8w/XIHV3ESt6byZXknV4JfwOYW7JwYjBei6ChX4awt7+ILM5/zgd2RF9nBlBLu84dH1wV6J9egsv/0QggQQv4hrHzvIPlBx6RbdSWWtBcaUM9EZFjpVrPQF9kN1ngGd0Z5xnNDwKBgQC5GFn9vddjN+C+zmAviL9kqAnVZ5fwE9w8FHt8zAfc2OagNNttEmwAXwhywg0pJoYP1+d6nHevHVhoPFA/5ybid9Zx+hHmhLUUWVaKfavQQN4I1uSo2hBVLy77fatT4VGKoYqLPeIZsF6CxZ6umuHo2J+KYUa9NIH/9Hk/Apbr2QKBgCt3JP6QHqmDlINztgHRqIeHdTO5D8+NR+ZwM5w7TJU/so4IdRNcSXJbNYFSaLJs6fyfAzk1I2VfyK6CnbPB4Wfz6CSi+sRN1V5dC/eufUMyPOM5ledgDRzYzHaaV/SInKyemSsBEjYVtfoNiRPGbhGhi4pHeh80t0P2RBMGGb6BAoGBALNL/4BocUhPTIoIZ+wjzyK2FDCA1RFea6xXOve8vLEV+vGdwiB6A9yoMgrYJt+BzcNzJWwEPXuINadjJWmBhI1EAJsP3l8qli5MDCTDb7ef3nU5lO5rrf6WYjCDn371eION0CLpoye3TRXoULpalhN0I7dsW5XUU0mZjAmZfJChAoGADPFDNtOAjd3ZHI4heyY73bHm1sAzJMtzIdgOJ9Lqb6RJ0dqSlYx/9JYOSSMpRnqcKb2JnPImt+GHCEbODaWc3/Elmy7DwMQGxzh4dGGYZ1f59lSp/fls66HXggDihVoEC2HxMjb5y4qHuMLqEpYyvSqIyi+EqlGT/H2FBbIAG9Y="
+}
